@@ -1,0 +1,123 @@
+body {
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.a1 {
+    width: 100%;
+/*border: 1px solid black;*/
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    
+}
+.a1 div{
+    display: flex;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.header{
+    background-color: rgb(29, 38, 53);
+    height: 40px;
+    
+    margin: 0 auto;
+    display: flex;
+    padding-left: 25px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    
+    display: flex;
+    margin-right: 20px;
+    list-style-type: none;
+    flex-direction: row;
+}
+li{
+    font-size: 10px;
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+.description{
+    background-color: rgb(29, 38, 53);
+    height: 300px;
+    width: 100%;
+    padding-left: 50px;
+}
+.description div{
+    
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+    border: 0px ;
+    color: whitesmoke;
+    flex-direction: column;
+}
+.info{
+    height: 190px;
+    width: 100%;
+    flex-direction: column;
+    text-decoration: solid ;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    gap: 100px;
+}
+.icons div{
+    border: 3px solid lightblue;
+    border-radius: 20%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.quote{
+    background-color: lightgray;
+    height: 190px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.action{
+    height: 190px;
+    
+    
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.action div{
+    height: 70px;
+    background-color: blue;
+    width: 350px;
+    color: white;
+    font-size: xx-small;
+    padding-left: 20px;
+    padding-top: 9px;
+}
+.footer{
+    background-color: rgb(29, 38, 53);
+    height: 50px;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
