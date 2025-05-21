@@ -1,0 +1,27 @@
+body{
+    background-color:#90FCF9;
+    font-family: Arial, sans-serif;
+    color: #080705;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    
+   align-items: center;
+   justify-content: center;
+}
+#game{
+    display: flex;
+    flex-wrap: wrap;
+    height: 360px;
+    width: 360px;
+    gap: 10px;
+}
+.btn{
+    height: 110px;
+    width: 110px;
+    background-color: #480355;
+    border-radius: 10%;
+    color: white;
+    font-size: 45px;
+}
